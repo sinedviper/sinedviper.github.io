@@ -211,7 +211,21 @@
 		   margin-top: 5px;
 		}
  }
-@media (max-width: 576px){
+ @media (max-width: 576px){
+ 	.menu{
+ 		width: 100%;
+ 	}
+ 	.contacts{
+ 		width: 100%;
+ 	}
+ 	footer{
+ 		margin-left:0%;
+ 		width: 100%;
+ 	}
+ 	.verh{
+ 		right:0%;
+ 		width: 100%;
+ 	}
 	.niz{
 		display: inline-grid;
 		/*делает выравнивание по бокам блока*/
@@ -224,28 +238,5 @@
 		   margin-bottom: 5px;
 		   margin-top: 5px;
 		}
-	.contacts {
-	aligne-text:center;
-	}
-	@media (max-width: 400px){
-	.niz{
-		display: inline-grid;
-		/*делает выравнивание по бокам блока*/
-		justify-content:center;
-	}
-	.menu > ul > li {
-		   display: block;
-		   border-left: none;
-		   border-right: none;
-		   margin-bottom: 5px;
-		   margin-top: 5px;
-		}
-		.contacts{
-			justify-content: center;
-			grid-auto-columns: minmax(auto,15em);
-		}
-		.pochta{
-			font-size: 0.85em;
-		}
-	
+ }
  }
