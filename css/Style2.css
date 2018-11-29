@@ -177,6 +177,23 @@
 	::-ms-selection{background:#07FA00; color:#A1FF9E}
 /**************************@MEDIA**********************************************/
  @media (max-width: 576px){
+ 	.menu{
+ 		width: 100%;
+ 	}
+ 	.contacts{
+ 		width: 100%;
+ 	}
+ 	.lodochka{
+ 		width: 100%;
+ 	}
+ 	footer{
+ 		width: 100%;
+ 		margin-left: 0%;
+ 	}
+ 	.verh{
+ 		right:0%;
+ 		width: 100%;
+ 	}
 	.niz{
 		display: inline-grid;
 		/*делает выравнивание по бокам блока*/
