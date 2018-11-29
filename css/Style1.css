@@ -220,7 +220,7 @@
 	::-webkit-selection{background:#07FA00; color:#A1FF9E}
 	::-ms-selection{background:#07FA00; color:#A1FF9E}
 /**************************@MEDIA**********************************************/
- @media(max-width:1200px,max-height:1200px){
+ @media(max-width:1200px){
  .pop2 {
       background-size: 300px,300px;
       width: 300px;
@@ -239,26 +239,7 @@
   .pop5{ grid-auto-columns: minmax(auto,25em); }
   .pop6{ grid-auto-columns: minmax(auto,25em); }
  }
- @media (max-width:1199px){
- 	.pop2 {
-      background-size: 300px,300px;
-      width: 300px;
-      height: 300px;
-  }
-  .pop3 {
-	  background-size: 300px,300px;
-	  width: 300px;
-	  height: 300px;
-  }
-  .pop4 {
-	  background-size: 300px,300px;
-	  width: 300px;
-	  height:300px;
-  }
-  .pop5{ grid-auto-columns: minmax(auto,25em); }
-  .pop6{ grid-auto-columns: minmax(auto,25em); }
- }
- @media(max-width:992px,max-height:992px){
+ @media(max-width:992px){
  	.soderjanie_0 {
  	grid-template-columns: 100%;
   	grid-auto-flow: row;
@@ -283,7 +264,7 @@
   .pop6{ grid-auto-columns: minmax(auto,20em);}
 
  }
- @media(max-width:768px,max-height:768px){
+ @media(max-width:768px){
   .soderjanie_0 {
   	grid-template-columns: 100%;
   	grid-auto-flow: row;
@@ -307,8 +288,23 @@
   .pop5{ grid-auto-columns: minmax(auto,15em);}
   .pop6{ grid-auto-columns: minmax(auto,15em);}
  }
- @media(min-width:576px,max-height:576px) {
+ @media(max-width:576px) {
+ 	.menu{
+ 		width: 100%;
+ 	}
+ 	.contacts{
+ 		width: 100%;
+ 	}
+ 	footer{
+ 		margin-left:0%;
+ 		width: 100%;
+ 	}
+ 	.verh{
+ 		right:0%;
+ 		width: 100%;
+ 	}
   .soderjanie_0 {
+  	width: 100%;
   grid-template-columns: 100%;
   grid-auto-flow: row;
   grid-gap: 1em;
@@ -346,54 +342,10 @@
 		   margin-bottom: 5px;
 		   margin-top: 5px;
 		}
-  .soderjanie_1 {      
+  .soderjanie_1 {   
+      width: 100%;   
       grid-template-columns: 100%;
       grid-auto-flow: row;
       grid-gap: 1em;
   }
- }
-@media(max-width:400px, max-height:400px) {
-  .soderjanie_0 {
-  grid-template-columns: 100%;
-  grid-auto-flow: row;
-  grid-gap: 1em;
-  }
-  .pop2 {
-     background-size: 100px,100px;
-      width: 100px;
-      height: 100px;
-  }
-  .pop3 {
-	  background-size: 100px,100px;
-      width: 100px;
-      height: 100px;
-   }
-  .pop4 {
-	  background-size: 100px,100px;
-      width: 100px;
-      height: 100px;
-   }
-  .pop5{ grid-auto-columns: minmax(auto,25em);}
-  .pop6{ grid-auto-columns: minmax(auto,25em);}
-  .niz{
-		display: inline-grid;
-		/*делает выравнивание по бокам блока*/
-		justify-content:center;
-  }
-  .icons {
-        padding-right: 1em;
-	    padding-left: 1em;
-	}
-  .menu > ul > li {
-		   display: block;
-		   border-left: none;
-		   border-right: none;
-		   margin-bottom: 5px;
-		   margin-top: 5px;
-		}
-  .soderjanie_1 {      
-      grid-template-columns: 100%;
-      grid-auto-flow: row;
-      grid-gap: 1em;
-  }
- }
+}
