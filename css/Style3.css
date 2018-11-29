@@ -188,16 +188,16 @@
 	::-webkit-selection{background:#07FA00; color:#A1FF9E}
 	::-ms-selection{background:#07FA00; color:#A1FF9E}
 /**************************@MEDIA**********************************************/
- @media(max-width:991px){
+ @media(max-width:991px,max-height:991px){
   .niz{
   	margin-top: 1%;
  }
- @media(max-width: 768px){
+ @media(max-width: 768px,max-height:768px){
  .niz{
   	margin-top: 1%;
   }
  }
- @media (max-width: 576px){
+ @media (max-width: 576px,max-height:576px){
 	.niz{
 		display: inline-grid;
 		/*делает выравнивание по бокам блока*/
