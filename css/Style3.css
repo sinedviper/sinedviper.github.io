@@ -227,5 +227,25 @@
 	.contacts {
 	aligne-text:center;
 	}
+	@media (max-width: 400px, min-height:400px){
+	.niz{
+		display: inline-grid;
+		/*делает выравнивание по бокам блока*/
+		justify-content:center;
+	}
+	.menu > ul > li {
+		   display: block;
+		   border-left: none;
+		   border-right: none;
+		   margin-bottom: 5px;
+		   margin-top: 5px;
+		}
+		.contacts{
+			justify-content: center;
+			grid-auto-columns: minmax(auto,15em);
+		}
+		.pochta{
+			font-size: 0.85em;
+		}
 	
  }
