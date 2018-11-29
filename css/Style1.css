@@ -307,7 +307,7 @@
   .pop5{ grid-auto-columns: minmax(auto,15em);}
   .pop6{ grid-auto-columns: minmax(auto,15em);}
  }
- @media(max-width:576px) {
+ @media(min-width:576px) {
   .soderjanie_0 {
   grid-template-columns: 100%;
   grid-auto-flow: row;
