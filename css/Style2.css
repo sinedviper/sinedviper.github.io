@@ -176,7 +176,7 @@
 	::-webkit-selection{background:#07FA00; color:#A1FF9E}
 	::-ms-selection{background:#07FA00; color:#A1FF9E}
 /**************************@MEDIA**********************************************/
- @media (max-width: 576px,max-height:576px){
+ @media (max-width: 576px){
 	.niz{
 		display: inline-grid;
 		/*делает выравнивание по бокам блока*/
