@@ -211,3 +211,21 @@
 		   margin-top: 5px;
 		}
  }
+@media (max-width: 576px,max-height:576px){
+	.niz{
+		display: inline-grid;
+		/*делает выравнивание по бокам блока*/
+		justify-content:center;
+	}
+	.menu > ul > li {
+		   display: block;
+		   border-left: none;
+		   border-right: none;
+		   margin-bottom: 5px;
+		   margin-top: 5px;
+		}
+	.contacts {
+	aligne-text:center;
+	}
+	
+ }
