@@ -1,1 +1,1 @@
-# sinedviper.github.io/pervaya_stranica.html
+# sinedviper.github.io
